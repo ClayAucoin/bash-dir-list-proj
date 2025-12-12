@@ -66,6 +66,7 @@ proj() {
     2)
       echo "Opening VS Code..."
       code . 2>/dev/null || echo "Could not run 'code .'. Make sure VS Code is installed and 'code' is on your PATH."
+      cd ../
       ;;
     3)
       echo "Running: git status"
